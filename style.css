@@ -20,7 +20,13 @@ p{
     align-items: center;
     margin-top: 80px;
     color: #70091C;
+    flex-direction: column;
     
+}
+
+#selfpromo{
+    font-style: italic;
+    margin-top: 10px;
 }
 
 .playersbox{
@@ -103,7 +109,7 @@ p{
     font-size: 25px;
     border: 0;
     width: 70%;
-    height: 90%;
+    height: 80%;
 }
 
 #addplayerh1:focus{
@@ -139,6 +145,7 @@ p{
     border-radius: 20px;
     cursor: pointer;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 2px solid white;
 }
 
 #gamecontainer{

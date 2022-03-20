@@ -1,6 +1,6 @@
 let playerlist = []
 var input = document.getElementById("addplayerh1");
-let selectedgame = 2;
+let selectedgame = 1;
 input.addEventListener("keydown", function(event) {
   if (event.code === "Enter") {
     event.preventDefault();
@@ -53,16 +53,25 @@ function selectgame(game) {
             document.getElementById("englishgame").style.padding = "10px" ;
             document.getElementById("dutchgame").style.padding = "0px";
             document.getElementById("sexygame").style.padding = "0px";
+            document.getElementById("verwijder").innerHTML = "Click a name to remove";
+            document.getElementById("spelerstitel").innerHTML = "Players";
+            document.getElementById("addplayerh1").placeholder = "Add a player";
             break;
         case 2:
             document.getElementById("englishgame").style.padding = "0px";
             document.getElementById("dutchgame").style.padding = "10px";
             document.getElementById("sexygame").style.padding = "0px";
+            document.getElementById("verwijder").innerHTML = "Klik op een naam om te verwijderen";
+            document.getElementById("spelerstitel").innerHTML = "Spelers";
+            document.getElementById("addplayerh1").placeholder = "Voeg een speler toe";
             break;
         case 3:
             document.getElementById("englishgame").style.padding = "0px";
             document.getElementById("dutchgame").style.padding = "0px";
             document.getElementById("sexygame").style.padding = "10px";
+            document.getElementById("verwijder").innerHTML = "Click a name to remove";
+            document.getElementById("spelerstitel").innerHTML = "Players";
+            document.getElementById("addplayerh1").placeholder = "Add a player";
             break;
 
     }

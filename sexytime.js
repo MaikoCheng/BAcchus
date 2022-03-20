@@ -1,3 +1,3 @@
 let sexytimeoriginal = [
-    "Ik ben een sexytime!"
+    "Why you here bruh weirdo"
 ]

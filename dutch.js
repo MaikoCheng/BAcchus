@@ -117,7 +117,7 @@ let nederlandsoriginal = [
     "De persoon die ooit heeft geplast op iemand anders mag 5 slokken uitdelen",
     "${player1}, wissel de drankjes van 2 spelers naar keuze",
     "${player1}, noem 3 liedjes van Avril Lavigne of drink 3 slokken",
-    "${player1}, lik de voorarm van ${player2} of drink 3 slokken}",
+    "${player1}, lik de voorarm van ${player2} of drink 3 slokken",
     "${player1} en ${player2}, wissel van schoenen of drink 5 slokken",
     "Ben je of heb je het ooit iemand gedumpt via je telefoon? Deel dan 3 slokken uit",
     "${player1}, doe een filmscene na zonder geluid te maken. Jij en de persoon die het raadt mogen 3 slokken uitdelen. Anders drink je zelf 3 slokken",
@@ -135,8 +135,17 @@ let nederlandsoriginal = [
     "Als je vandaag een kopje koffie hebt gedronken moet je 3 slokken drinken",
     "${player1} finish de tekst: '130 op de' of drink 3 slokken",
     "Als je uit een glas drinkt mag je 3 slokken uitdelen. Environmentalist",
-
-
+    "Het aantal goals dat Ajax voor het laatst heeft gescoord moet ${player1} drinken",
+    "Mensen met een glutenintolerantie mogen 3 slokken uitdelen",
+    "${player1} ga naar https://moetikeenriet.at/ en doe wat er staat",
+    "Doe een potje vingeren (leg je vinger op het glas en raad het aantal vingers dat blijft op het glas)",
+    "${player1}, noem de kleuren van de regenboog in de juiste volgorde of drink evenveel als kleuren die je fout hebt",
+    "${player1} en ${player2}, drink een slok van elkaars drankje of drink 2 van je eigen",
+    "De persoon met de volgende verjaardag mag 3 slokken uitdelen",
+    "Als je dit leest moet je 3 slokken drinken",
+    "${player1}, elk elk elk, een koe drinkt? Als je het fout hebt drink je 5 slokken",
+    "${player1}, wat betekent een SOA? Als je het fout hebt drink je 3 slokken",
+    "Als je voor Feyenoord bent moet je 5 slokken drinken, ieuw",
 
 
 ];
