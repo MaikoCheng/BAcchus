@@ -16,6 +16,7 @@ input.addEventListener("keydown", function(event) {
         };
         myDiv.appendChild(button);
         input.value = "";
+        input.focus();
     }else{
         alert("No name entered!");
         input.value = "";
@@ -39,6 +40,7 @@ function clickplayer(){
         };
         myDiv.appendChild(button);
         input.value = "";
+        input.focus();
     }else{
         alert("No name entered!");
     }
