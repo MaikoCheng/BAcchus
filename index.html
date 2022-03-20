@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BAcchus</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico?v=1">
+        <meta name="description" content="This is the BAcchus game made by Maiko Cheng & Sophie Reichardt">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="titlediv">
+            <h1 id="bactitle">BAccus</h1>
+        </div>
+        <div class="playersbox">
+            <div id="players">
+                <div id="topplayers">
+                    <h1>Players</h1>
+                    <p>Click a name to remove</p>
+                </div>
+                <div class="line"></div>
+                <div id="playercontainer"></div>
+            </div>
+        </div>
+        <div class="playersbox">
+            <div class="addplayerbutton">
+                <input id="addplayerh1" type="text" placeholder="Add a player">
+                <div class="circle grow" onClick="clickplayer()">
+                    <h1 id="plus">+</h1>
+                </div>
+            </div>
+        </div>
+        <div class="playersbox" id="gamebox">
+            <div id="gamecontainer">
+                <div class="game grow" id="englishgame" onClick="selectgame(1)"></div>
+                <div class="game grow" id="dutchgame" onClick="selectgame(2)"></div>
+                <div class="game grow" id="sexygame" onClick="selectgame(3)"></div>
+            </div>
+        </div>
+        <div class="playersbox">
+            <div class="addplayerbutton grow" id="startbox" onClick="start()">
+                <h1 id="start">Start ></h1>
+            </div>
+        </div>
+
+
+        <img src="Group.svg" alt="Group" class="goback" onClick="goback()" id="gobacktopleft" style="display: none">
+        <div class="playercontainer" id="cardholder" style="display: none">
+            <div id="card" onClick="playgame()" style="cursor:pointer">
+                <h1 id="cardtext">Sophie, drink 4 sips if you are smaller than Maiko</h1>
+            </div>
+        </div>
+        <script type="text/javascript" src="dutch.js"></script>
+        <script type="text/javascript" src="english.js"></script>
+        <script type="text/javascript" src="sexytime.js"></script>
+        <script src="addname.js"></script>
+        <script src="start.js"></script>
+        <script src="goback.js"></script>
+    </body>
+</html>
