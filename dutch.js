@@ -146,6 +146,9 @@ let nederlandsoriginal = [
     "${player1}, elk elk elk, een koe drinkt? Als je het fout hebt drink je 5 slokken",
     "${player1}, wat betekent een SOA? Als je het fout hebt drink je 3 slokken",
     "Als je voor Feyenoord bent moet je 5 slokken drinken, ieuw",
+    "TREK EEN BAK ${player1}",
+    "TREK EEN BAK ${player1}",
+    
 
 
 ];
