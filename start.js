@@ -2,7 +2,11 @@ let player1 = "";
 let player2 = "";
 let counter = 0;
 
-
+document.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        document.getElementById("card").click();
+    }
+});
 let nederlands = [];
 let english = [];
 let sexytime = [];
@@ -36,7 +40,9 @@ function playgame() {
     
     counter += 1;
     gamelength = 30;
+    chosenprompt = "";
     var card = document.getElementById("cardtext");
+    
     setRandomPlayers();
     if (selectedgame === 2) {
         if (nederlands.length > 0 && counter < gamelength) {
